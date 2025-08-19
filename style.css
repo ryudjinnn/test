@@ -38,3 +38,32 @@ video {
   pointer-events: none;
   z-index: 2;
 }
+
+#view-info {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+  background: rgba(0,0,0,0.4);
+  z-index: 3;
+  padding: 10px 0;
+}
+
+#all-times {
+  margin-top: 8px;
+}
+
+#all-view-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+#all-view-list li {
+  font-size: 0.95em;
+  padding: 2px 0;
+}
